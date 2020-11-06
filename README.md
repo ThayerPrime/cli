@@ -1,2 +1,2 @@
-# cli
-Reliability advice from your command line
+# Reliably CLI
+Get reliability advice from your command line
