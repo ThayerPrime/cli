@@ -32,7 +32,8 @@ You can run the CLI with our [docker image](https://github.com/orgs/reliablyhq/p
 
 ```
 $ docker run --rm \
-  --volume=</path/to/manifests/folder>:/manifests ghcr.io/reliablyhq/cli/cli \
+  --volume=</path/to/manifests/folder>:/manifests \
+  ghcr.io/reliablyhq/cli/cli \
   review --dir /manifests
 ```
 
