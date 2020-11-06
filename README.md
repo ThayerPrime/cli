@@ -1,2 +1,10 @@
 # Reliably CLI
-Get reliability advice from your command line
+Reliability toolbox for developers from the command line.
+
+### Usage
+
+To review your Kubernetes manifests for reliability advice, simply run:
+
+```
+$ reliably review [--dir .]
+```
