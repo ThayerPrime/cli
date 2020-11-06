@@ -19,7 +19,7 @@ $ reliably review --dir ./manifests
 
 #### Use as a Github Action
 
-You can use Reliably as part of your Github workflows, by using our [gh-action](https://github.com/reliablyhq/gh-action)
+You can use Reliably as part of your Github workflows, by using our [Github Action](https://github.com/reliablyhq/gh-action)
 
 ```yaml
 - name: Run Reliably
