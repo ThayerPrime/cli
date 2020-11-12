@@ -3,7 +3,7 @@ Reliability toolbox for developers from the command line.
 
 ### Usage
 
-To review your Kubernetes manifests for reliability advice, simply run:
+To check your Kubernetes manifests for Reliably Advice and Suggestions, simply run:
 
 ```
 $ reliably discover
@@ -34,6 +34,6 @@ You can run the CLI with our [docker image](https://github.com/orgs/reliablyhq/p
 $ docker run --rm \
   --volume=</path/to/manifests/folder>:/manifests \
   ghcr.io/reliablyhq/cli/cli \
-  review --dir /manifests
+  discover --dir /manifests
 ```
 
