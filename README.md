@@ -17,6 +17,22 @@ To indicate a specific folder, you can use the `--dir` flag, as follow:
 $ reliably discover --dir ./manifests
 ```
 
+The CLI supports multiple output formats, such as `simple` *(default)*,
+`json`, `yaml`, `sarif`, `codeclimate`. To report in a specific format,
+you can use the `--format` or `-f` flag, as follow:
+
+```
+$ reliably discover --format sarif
+```
+
+The CLI prints out the report to the standard output, by default, but it can
+write the report to a local file. You can indicate the path of the report
+with the `--output` or `-o` flag, as follow:
+
+```
+$ reliably discover --output ./report.txt
+```
+
 #### Use as a Github Action
 
 You can use Reliably as part of your Github workflows, by using our [Github Action](https://github.com/reliablyhq/gh-action)
