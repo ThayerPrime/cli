@@ -39,7 +39,7 @@ You can use Reliably as part of your Github workflows, by using our [Github Acti
 
 ```yaml
 - name: Run Reliably
-  uses: reliablyhq/gh-action@main
+  uses: reliablyhq/gh-action@v1
 ```
 
 #### Use as a docker container
